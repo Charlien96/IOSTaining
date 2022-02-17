@@ -1,0 +1,36 @@
+Q:What is the difference between var and let?
+A:Let allows the user to create immutable variables while var allows the user to create mutable variables.
+
+Q:What is an optional?
+A:An optional is a type that can have two possible values one of which being Nil the other a value
+
+Q:What is optional chaining vs optional binding?
+A:Optional chaining is a way of checking an optional thet might have the value of Nil.
+  Optional binding is a way of forceing the unrapping an optional.
+
+Q:What are the different ways to unwrap an optional? How do they work? Are they safe?
+A:The different ways to unwrap an optional are with either a "?" or an "!". Unwrapping an optional is only safe if the
+  value is not Nil
+
+Q:What is a closure?
+A:A closure is an anonymous function.
+
+Q:What is the difference between a class and a struct?
+A:A class is a reference type and a struct is a value type. Copying a struct leaves the user with two unique
+  copies of data where as copying a class leaves the user with two references to one instance of data.
+
+Q:What is the syntax '??' do?
+A:This operator allows the user to assign a default value to a variable if the value is Nil
+
+Q:What is a tuple?
+A:A tuple allows the user to group multiple groups of values in one place.
+
+Q:What is Any vs AnyObject?
+A:Any can represent an instance of any type including functions and optionals where anyobject
+  can represent an instance of any class.
+
+Q:What is a protocol?
+A: A protocol is a blueprint of methods, properties and requirements for a particular task.
+
+Q:What is Delegation?
+A:Delegation is a pattern where one object acts on behalf or with another object.
